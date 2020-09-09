@@ -31,7 +31,9 @@ size_t decikara_nscratch(
     size_t nwb,
     size_t cutoff);
 
-// Does not modify either (wa ... wa+nwa) or (wb...nwb), writes result into (out ... out+nwa+nwb).
+// Does not modify either (wa ... wa+nwa) or (wb... wb+nwb), writes result into
+// (out ... out+nwa+nwb).
+//
 // 'scratch' must have capacity of 'decikara_nscratch(nwa, nwb, cutoff)'.
 void decikara_mul(
     deci_UWORD *wa, size_t nwa,
