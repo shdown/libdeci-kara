@@ -24,6 +24,9 @@
 
 // The 'cutoff' argument is the threshold below which the multiplication should be done using the
 // "basecase"/"dumb"/quadratic algorithm.
+//
+// The optimal value of the cutoff depends on the machine, but the recommended range for x86-64 is
+// somewhere between 20 and 30.
 
 // Returns '(size_t) -1' on overflow.
 size_t decikara_nscratch(
