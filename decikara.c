@@ -76,7 +76,7 @@
 //  * K(n_1, n_2) is the extra space in words needed to multiply n_1 words by n_2 words with our
 //    algorithm.
 //
-// So let's calculate the amout of extra space we need. We are going to perform the following
+// So let's calculate the amount of extra space we need. We are going to perform the following
 // low-level steps:
 //
 // 1. Multiply x0*y0 -> low part of output.
